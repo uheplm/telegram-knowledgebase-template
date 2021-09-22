@@ -1,0 +1,63 @@
+---
+# Приветствие в чате при добавлении нового пользователя
+WelcomeMessage: 'Привет! Чтобы получить инструкцию нажми на кнопку ниже!'
+
+# Заголовок подменю бота
+PageHeader: 'Choose your question'
+
+# Заголовок стартовой страницы бота
+StartHeader: >
+          You are started <code>telegram-knowledgebase-template</code>
+
+
+          To learn more, use buttons below
+          <a href="https://icon-library.com/images/knowledge-base-icon/knowledge-base-icon-3.jpg"> </a>
+
+# Сообщение в случае ошибки. Рекомендуется просить пользователя нажать /start 
+ErrorMessage: 'Something wrong. Press /start'
+
+# Всплывающее сообщение при нажатии на любую кнопку меню
+ToastLoading: 'Loading...'
+
+# Кнопка перехода к боту из сообщения в чате
+OpenButton: 'Перейти в бота!'
+
+# Кнопка регистрации на GetCourse
+PerformRegButton: 'Register'
+
+# Сообщения бота при реистрации 
+# Первый шаг регистрации - отправка номера телефона
+RegPhone: |
+          <b>Registration demo</b>
+          Enter your phone number (+7/8*** *** ** **)
+# Шаг второй - электронная почта
+RegEmail: |
+          <b>Step two</b>
+          Phone accepted: ✅
+          Enter your email (name@domain.com)...
+# Шаг третий - имя и фамилия именно в этом порядке
+RegName: |
+          <b>Final step</b>
+          Phone accepted: ✅
+          Email accepted: ✅
+          Enter your name (John Doe)...
+# Сообщение ошибки, возникающее если пользователь ввел неправильный номер или почту
+ErrorReg: 'Wrong format. Double check your data and send again'
+# Этап проверки введенных данных. {name}, {email}, {phone} заменяются на введенные данные. Обязательно чтобы в строке были все три.
+RegEnd: |
+        <b>Check your data</b>
+        Name: {name}
+        Email: {email}
+        Phone: {phone}
+        Is all right?
+# Сообщение об успешной регистрации
+RegComplete: |
+              <b>Registration demo</b>
+              You can use any logic for <code>register()</code>
+# Пользователь нажал кнопку ОТМЕНА
+RegCanceled: Cancelled
+# Регистрация произошла с ошибкой. {} заменяется на описание ошибки.
+RegFailed: 'Registration error: {}'
+
+RegOpen: Open url
+RegLink: 'https://example.com'

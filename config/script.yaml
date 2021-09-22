@@ -1,0 +1,41 @@
+---
+# Это - файл сценария бота
+# Тут можно использовать HTML теги <b>, <i>, <a>, <s>, <u>, <code>
+# Максимальное количество пунктов меню - 30
+# Точка, в которой должен происходить переход к регистрации отмечается кодовым словом $perform_reg
+# Точкой регистрации не может быть главное меню
+
+Bot usage:
+  Configure Bot: Open bot_config in config folder and enter api_token, bot username and your ID.
+  Edit menu: To edit menu, open script file from config folder. This is a pure YAML dictionary, where key is button title and value is message content
+  Edit strings: To edit string not related to script, open strings file from config folder.
+Registration example: You can collect data from your users by using form feature. It may be useful when you use this bot as support page of your product. $perform_reg
+Menu example:
+  Submenu:
+    Item1: Content
+    Item2: Content2
+    Item3: Content3
+    Submenu Item:
+      SubItem1: Content
+      SubItem2: Content2
+      SubItem3: Content3
+  Item: Content
+  Long submenu:
+    1 level:
+      2 level:
+        3 level:
+          4 level:
+            5 level:
+              6 level:
+                Item: Content
+                Item2: Content
+                Item3: Content
+                Item4: Content
+                Item5: Content
+                Item6: Content
+                Item7: Content
+                Item8: Content
+                Item9: Content
+About:
+  Github Profile: Follow me on <a href="https://github.com/uheplm">GitHub!</a>
+  Author: Check my bio on <a href="https://uheplm.github.io">GitHub pages</a>

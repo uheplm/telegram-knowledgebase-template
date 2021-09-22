@@ -1,0 +1,7 @@
+---
+api_token: 'YOUR_APITOKEN'
+bot_link: username_of_bot
+admin_account: your_UID
+
+regex_phone: "^((8|\\+7)[\\- ]?)?(\\(?\\d{3}\\)?[\\- ]?)?[\\d\\- ]{7,10}$"
+regex_email: "[^@]+@[^@]+\\.[^@]+"
